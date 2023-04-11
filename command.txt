@@ -1,0 +1,30 @@
+一開始的步驟
+1. create a new repository on the command line
+echo "# Git_learning" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:SeanLo940076/Git_learning.git
+git push -u origin main
+
+2. push an existing repository from the command line
+git remote add origin git@github.com:SeanLo940076/Git_learning.git
+git branch -M main
+git push -u origin main
+
+3. or import code from another repository
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+
+
+命令說明
+
+初始化倉庫
+git init 
+
+添加文件到暫存區
+git add . 
+
+將暫存區內容添加到倉庫
+git commit 
+
